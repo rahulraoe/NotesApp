@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButton3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#25313f"-->
+    <!--android:padding="@dimen/dimen_10dp"-->
+    <!--android:contentDescription="@string/app_name"-->
+    <!--android:src="@drawable/ic_pwdlogin" />-->
+
+
+    <EditText
+        android:id="@+id/EdtPin1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.25"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:paddingLeft="24dp"
+        android:singleLine="true"
+        android:textColor="#111"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/EdtPin2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.25"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:paddingLeft="24dp"
+        android:singleLine="true"
+        android:textColor="#111"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/EdtPin3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.25"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:paddingLeft="24dp"
+        android:singleLine="true"
+        android:textColor="#111"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/EdtPin4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="1dp"
+        android:layout_weight="0.25"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:paddingLeft="24dp"
+        android:singleLine="true"
+        android:textColor="#111"
+        android:textColorHint="#FFFFFF" />
+
+
+</LinearLayout>
