@@ -17,6 +17,8 @@ import androidx.room.Room;
 import java.io.Serializable;
 import java.util.List;
 
+//this also changed////
+
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
     List<NoteClass> mynotes;
     Context con;
